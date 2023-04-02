@@ -1,4 +1,4 @@
-# Websocket
+# Websocket. Использование с react, redux, saga и RTK Query
 
 ![https://www.koskila.net/wp-content/uploads/2021/04/gifmachine-21.gif](https://www.koskila.net/wp-content/uploads/2021/04/gifmachine-21.gif)
 
@@ -18,7 +18,7 @@ WebSocket обеспечивает более низкую задержку и �
 
 Пример использования:
 
-```
+```jsx
 const socket = new WebSocket('ws://localhost:8080');
 
 socket.onopen = function() {
@@ -45,7 +45,7 @@ socket.onerror = function(error) {
 
 Пример использования:
 
-```
+```jsx
 const WebSocket = require('ws');
 
 const wss = new WebSocket.Server({ port: 8080 });
