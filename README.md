@@ -1,5 +1,7 @@
 # Websocket
 
+![https://www.koskila.net/wp-content/uploads/2021/04/gifmachine-21.gif](https://www.koskila.net/wp-content/uploads/2021/04/gifmachine-21.gif)
+
 WebSocket - протокол связи поверх TCP-соединения, предназначенный для обмена сообщениями между браузером и веб-сервером, используя постоянное соединение.
 
 ### Разница между HTTP и Websocket
